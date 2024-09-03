@@ -1,6 +1,6 @@
 ---
 title: Notes for using this theme(Chirpy)
-date: YYYY-MM-DD HH:MM:SS +0800
+#date: YYYY-MM-DD HH:MM:SS +0800
 categories: [Note]
 tags: [chirpy,note]     # TAG names should always be lowercase
 math: true  # enable math mode
