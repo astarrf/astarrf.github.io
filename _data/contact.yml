@@ -3,8 +3,12 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
+
+- type: google-scholar
+  icon: "fa-brands fa-google-scholar"
+  noblank: true # open link in current tab
 
 - type: email
   icon: "fas fa-envelope"

@@ -28,6 +28,9 @@ url: "https://astarrf.github.io"
 github:
   username: astarrf # change to your GitHub username
 
+google-scholar:
+  username: tUtv_qYAAAAJ # change to your Twitter username
+
 # twitter:
 #   username: twitter_username # change to your Twitter username
 
@@ -39,6 +42,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your Twitter homepage
+    - https://scholar.google.com/citations?user=username&hl=zh-CN # change to your Google Scholar homepage
     - https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
