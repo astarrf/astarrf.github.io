@@ -9,6 +9,7 @@
 - type: google-scholar
   #icon: "fa-brands fa-google-scholar"
   icon: "fa-brands fa-bilibili"
+  url: ""
 
 - type: email
   icon: "fas fa-envelope"
