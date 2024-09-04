@@ -8,3 +8,7 @@ This is ***Yue***. A senior Physics student in ***SJTU***. I'm interested in ***
 
 ![double rainbow](/assets/img/about/doublerainbow.jpg)
 <center>a double rainbow on my way to Yosemite</center>
+
+Some other friends' blog:
+
+[Yiming Hu](https://cant1de.github.io/), [Lihao Guo](https://chiclats.github.io/)
