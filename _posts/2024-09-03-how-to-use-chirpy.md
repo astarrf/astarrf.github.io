@@ -4,6 +4,7 @@ title: Notes for using this theme(Chirpy)
 #date: YYYY-MM-DD HH:MM:SS +0800
 categories: [Note]
 tags: [chirpy,note,en]     # TAG names should always be lowercase
+render_with_liquid: false
 ---
 
 ## Good Front Matter (updating):
@@ -49,10 +50,15 @@ where `info` can be replaced by `tip`, `warning` and `danger`.
 {: .prompt-danger}
 
 ## Insert Videos
+
+```liquid
+{% include embed/{Platform}.html id='{ID}' %}
 ```
+```liquid
 {% include embed/bilibili.html id='BV1GJ411x7h7' %}
 ```
-{% include embed/bilibili.html id='BV1GJ411x7h7' %}
+> if you don't want the above parts to be rendered, using `render_with_liquid: false` in the **Front Matter**
+{: .prompt-tip}
 
 ## Useful Link
 a possible useful link is [https://blandalpha.github.io/posts/Hello_World/](https://blandalpha.github.io/posts/Hello_World/)
