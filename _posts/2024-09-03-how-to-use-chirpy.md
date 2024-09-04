@@ -47,5 +47,11 @@ where `info` can be replaced by `tip`, `warning` and `danger`.
 > this is a danger
 {: .prompt-danger}
 
+## Insert Videos
+```
+{% include embed/bilibili.html id='BV1GJ411x7h7' %}
+```
+{% include embed/bilibili.html id='BV1GJ411x7h7' %}
+
 ## Useful Link
 a possible useful link is [https://blandalpha.github.io/posts/Hello_World/](https://blandalpha.github.io/posts/Hello_World/)
