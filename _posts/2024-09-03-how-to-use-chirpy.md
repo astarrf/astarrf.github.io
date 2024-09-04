@@ -3,7 +3,7 @@ math: true  # enable math mode
 title: Notes for using this theme(Chirpy)
 #date: YYYY-MM-DD HH:MM:SS +0800
 categories: [Note]
-tags: [chirpy,note]     # TAG names should always be lowercase
+tags: [chirpy,note,en]     # TAG names should always be lowercase
 ---
 
 ## Good Front Matter (updating):

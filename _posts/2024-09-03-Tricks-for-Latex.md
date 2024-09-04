@@ -3,7 +3,7 @@ math: true  # enable math mode
 title: Tricks for better looking $\LaTeX$
 #date: YYYY-MM-DD HH:MM:SS +0800
 categories: [Note]
-tags: [latex,note]     # TAG names should always be lowercase
+tags: [latex,note,en]     # TAG names should always be lowercase
 ---
 
 ## Better Subfigure
