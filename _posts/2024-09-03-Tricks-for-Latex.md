@@ -6,7 +6,7 @@ categories: [Note]
 tags: [latex,note]     # TAG names should always be lowercase
 ---
 
-# Better Subfigure
+## Better Subfigure
 required package: `\usepackage{subcaption,graphicx}`
 ```
 \begin{figure}[ht]
