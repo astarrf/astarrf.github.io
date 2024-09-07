@@ -38,7 +38,7 @@ which looks like this:
 > the '120' in `\put(-10,120){\textbf{b)}}` is not the same for all the figures. You should find the proper number.
 {: .prompt-warning}
 
-## Floating Figure Surrounded by Text
+## Floating Figure/Table Surrounded by Text
 If you want to have more freedom in showing the figure, you can try `\usepackage{subcaption,graphicx,wrapfig}`
 Then, use this to insert figure:
 ```latex
@@ -68,3 +68,21 @@ Then, use this to insert figure:
 This also include the subfigure and the 'a)', 'b)' text.
 > There may be errors when referring the figures.
 {: .prompt-warning}
+
+For tables, things are similar to figure with `wraptable` instead of `wrapfigure`:
+```latex
+\begin{wraptable}{r}{6cm} 
+\vspace{-6mm}
+ \centering \caption{Table Caption}\label{tab:table}
+ \vspace{-2mm}
+\begin{tabular}{ccc}
+    \hline
+    a & b & c \\
+    \hline
+    $1$ & $2$ & $3$ \\
+    $4$ & $5$ & $6$ \\
+    \hline
+   \end{tabular}
+\vspace{-2mm}
+\end{wraptable}
+```
