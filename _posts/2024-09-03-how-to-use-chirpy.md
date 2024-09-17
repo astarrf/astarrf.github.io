@@ -87,6 +87,15 @@ We can reference the equation as \eqref{eq:1} using `\eqref{eq:1}`.
 you can draw many kinds of diagrams with 'mermaid' plugin that is already in chirpy theme:
 > you need to turn on the mermaid mode `mermaid: true` first to enable the mode.
 {: .prompt-tip}
+```liquid
+```mermaid
+flowchart LR
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+```
+```
 
 ```mermaid
 flowchart LR
