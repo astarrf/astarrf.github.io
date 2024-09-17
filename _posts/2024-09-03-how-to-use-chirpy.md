@@ -67,9 +67,9 @@ a possible useful link is [https://blandalpha.github.io/posts/Hello_World/](http
 you can draw many kinds of diagrams with 'mermaid' plugin that is already in chirpy theme:
 
 flowchart LR
-  A[Hard] -->|Text| B(Round)
-  B --> C{Decision}
-  C -->|One| D[Result 1]
-  C -->|Two| E[Result 2]
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
 
 and also almost any kinds of charts you want. See [tutorial of Mermaid](https://mermaid.js.org/intro/syntax-reference.html) for further information.
