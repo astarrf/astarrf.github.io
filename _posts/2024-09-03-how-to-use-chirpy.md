@@ -62,3 +62,12 @@ where `info` can be replaced by `tip`, `warning` and `danger`.
 
 ## Useful Link
 a possible useful link is [https://blandalpha.github.io/posts/Hello_World/](https://blandalpha.github.io/posts/Hello_World/)
+
+## Some Advanced Markdown Tricks
+you can draw many kinds of diagrams with 'mermaid' plugin that is already in chirpy theme:
+
+```mermaid
+flowchart LR
+  A --> B
+```
+and also almost any kinds of charts you want. See [tutorial of Mermaid](https://mermaid.js.org/intro/syntax-reference.html) for further information.
