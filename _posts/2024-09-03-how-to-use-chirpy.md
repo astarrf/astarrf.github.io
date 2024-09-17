@@ -1,5 +1,7 @@
 ---
 math: true  # enable math mode
+mermaid: true # enable mermaid for charts
+pin: true
 title: Notes for using this theme(Chirpy)
 #date: YYYY-MM-DD HH:MM:SS +0800
 categories: [Note]
@@ -12,6 +14,7 @@ render_with_liquid: false
 ```
 ---
 math: true  # enable math mode
+mermaid: true # enable mermaid for charts
 title: Notes for using this theme(Chirpy)
 date: YYYY-MM-DD HH:MM:SS +0800 #UTC+8
 categories: [Note]
@@ -63,13 +66,34 @@ where `info` can be replaced by `tip`, `warning` and `danger`.
 ## Useful Link
 a possible useful link is [https://blandalpha.github.io/posts/Hello_World/](https://blandalpha.github.io/posts/Hello_World/)
 
+## Math mode
+```
+$$
+\begin{equation}
+  a^2+b^2=c^2
+  \label{eq:1}
+\end{equation}
+$$
+```
+$$
+\begin{equation}
+  a^2+b^2=c^2
+  \label{eq:1}
+\end{equation}
+$$
+We can reference the equation as \eqref{eq:1} using `\eqref{eq:1}`.
+
 ## Some Advanced Markdown Tricks
 you can draw many kinds of diagrams with 'mermaid' plugin that is already in chirpy theme:
+> you need to turn on the mermaid mode `mermaid: true` first to enable the mode.
+{: .prompt-tip}
 
+```mermaid
 flowchart LR
     A[Hard] -->|Text| B(Round)
     B --> C{Decision}
     C -->|One| D[Result 1]
     C -->|Two| E[Result 2]
+```
 
 and also almost any kinds of charts you want. See [tutorial of Mermaid](https://mermaid.js.org/intro/syntax-reference.html) for further information.
