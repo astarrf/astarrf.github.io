@@ -48,4 +48,3 @@ doping (掺杂)
 - Bloch势中的薛定谔方程
   $$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+V(x)\psi(x)=E\psi(x)$$
   $$\psi_k(x)=u_k(x)e^{ikx}, \ u_k(x)=u_k(x+na)$$
-  
