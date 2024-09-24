@@ -10,8 +10,8 @@
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.quickSuggestions": {
       "other": true,
-      "comments": false,
-      "strings": false
+      "comments": true,
+      "strings": true
     }
   },
   // Formatter
