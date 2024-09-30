@@ -48,3 +48,14 @@ doping (掺杂)
 - Bloch势中的薛定谔方程
   $$-\frac{\hbar^2}{2m}\frac{d^2\psi(x)}{dx^2}+V(x)\psi(x)=E\psi(x)$$
   $$\psi_k(x)=u_k(x)e^{ikx}, \ u_k(x)=u_k(x+na)$$
+- 氢原子模型采用Bohr模型
+$$\frac{q^2}{4\pi\varepsilon_0}\frac{1}{r^2} = m_e\frac{v^2}{r}$$
+轨道量子化:
+$$m_e vr=\frac{nh}{2\pi}, n=1,2, \cdots$$
+解得波尔能级：
+$$E_n=\frac{E_1}{n^2}, E_1=-\frac{me^4}{8\varepsilon_0^2h^2}$$
+
+### 禁带、导带
+- 导体: 导带没有被电子填满
+- 绝缘体： 导带被电子填满，且禁带>3eV
+- 半导体： 导带被电子填满，且禁带1-3eV
