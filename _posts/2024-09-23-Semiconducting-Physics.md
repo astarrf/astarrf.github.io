@@ -59,3 +59,49 @@ $$E_n=\frac{E_1}{n^2}, E_1=-\frac{me^4}{8\varepsilon_0^2h^2}$$
 - 导体: 导带没有被电子填满
 - 绝缘体： 导带被电子填满，且禁带>3eV
 - 半导体： 导带被电子填满，且禁带1-3eV
+
+
+## 掺杂
+### IV族
+III族 $\to$ P型
+V族  $\to$ N型
+
+浅能级杂质=杂质离子+束缚电子/空穴
+
+用类氢原子模型分析：
+$$\Delta E_\mathrm{D}=\frac{m_\mathrm{n}^*q^4}{2(4\pi\varepsilon_0\varepsilon_\mathrm{r})^2\hbar^2}=\frac{m_\mathrm{n}^*}{m_0}\frac{E_0}{\varepsilon_\mathrm{r}^2}$$
+$$\Delta E_\mathrm{A}=\frac{m_\mathrm{p}^*q^4}{2(4\pi\varepsilon_0\varepsilon_\mathrm{r})^2\hbar^2}=\frac{m_\mathrm{p}^*}{m_0}\frac{E_0}{\varepsilon_\mathrm{r}^2}$$
+
+> 这个公式没有反应不同杂质的区别
+{: .prompt-warning}
+
+补偿效应：可以通过高浓度的N型补偿低浓度的P型，使他从P变成N，反之亦然。
+> 注意两者恰好补偿时会导致半导体性能变差，所以一般不会使用。
+{: .prompt-warning}
+
+深能级杂质
+非常复杂，不好控制，一般不使用。
+
+
+### III-V族化合物的杂质能级
+II族通常是替位式，引入浅受主能级，VI族通常引入施主能级（可能深可能浅）
+IV族都可以替代。
+
+4纤锌矿结构
+GaN：硅、氮空位起浅施主杂质作用（N）
+     Mg，Zn起深受主杂质作用（P）难掺杂
+
+AlN: C、N深施主
+     Zn、Mg深受主
+     非常难掺杂
+
+### 缺陷、位错能级
+金属-半导体接触；功函数
+欧姆接触
+肖特基接触
+
+掺杂方法：高温扩散、离子注入
+
+# 半导体中载流⼦的统计分布
+## 状态密度
+$g(E)=\frac{dZ}{dE}$
