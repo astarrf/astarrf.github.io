@@ -105,3 +105,25 @@ AlN: C、N深施主
 # 半导体中载流⼦的统计分布
 ## 状态密度
 $g(E)=\frac{dZ}{dE}$
+椭球型等能面(a,b,c)
+$a=b=\sqrt{2m_t(E-E_c)/\hbar}$
+$c=\cdots$
+## 费⽶能级和载流⼦的统计分布
+$f(E)=\frac{1}{1+exp(\frac{E-E_F}{k_0T})}$
+$$
+n_{0}= 2\left(\frac{m_\mathrm{n}^* k_0 T}{2\pi\hbar^2}\right)^{3/2}\exp\left(-\frac{E_\mathrm{c} - E_\mathrm{F}}{k_0 T}\right) $$
+$$N_{\mathrm{c}}= 2\left(\frac{m_\mathrm{n}^*k_0T}{2\pi\hbar^2}\right)^{3/2}=2\frac{(2\pi m_\mathrm{n}^*k_0T)^{3/2}}{h^3}$$
+$$n_0=N_\mathrm{c}\exp\left(-\frac{E_\mathrm{c}-E_\mathrm{F}}{k_0T}\right) $$
+$$p_0=2\left(\frac{m_\mathrm{p}^*k_0T}{2\pi\hbar^2}\right)^{3/2}\exp\left(\frac{E_\mathrm{v}-E_\mathrm{F}}{k_0T}\right)$$
+$$N_\mathrm{v}=2\left(\frac{m_\mathrm{p}^*k_0T}{2\pi\hbar^2}\right)^{3/2}=2\frac{(2\pi m_\mathrm{p}^*k_0T)^{3/2}}{h^3}$$
+$$p_0=N_\mathrm{v}\exp\left(\frac{E_\mathrm{v}-E_\mathrm{F}}{k_0T}\right)$$
+## 本征半导体的载流⼦浓度
+$$E_\mathrm{i}=E_\mathrm{F}=\frac{E_\mathrm{c}+E_\mathrm{v}}2+\frac{3k_0T}4\mathrm{ln}\frac{m_\mathrm{p}^*}{m_\mathrm{n}^*}$$
+| 材料 | $m_p^*/m_n^*$ |
+| ---- | ------------- |
+| Si   | 0.55          |
+| Ge   | 0.52          |
+| AsGa | 7             |
+| InTe | 32            |
+> P79-tab3.2
+{: .prompt-tip}
