@@ -127,3 +127,4 @@ $$E_\mathrm{i}=E_\mathrm{F}=\frac{E_\mathrm{c}+E_\mathrm{v}}2+\frac{3k_0T}4\math
 | InTe | 32            |
 > P79-tab3.2
 {: .prompt-tip}
+## 杂质半导体的载流⼦浓度
