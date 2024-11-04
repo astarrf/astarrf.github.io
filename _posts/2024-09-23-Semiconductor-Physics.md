@@ -1,9 +1,9 @@
 ---
 math: true  # enable math mode
-title: Notes for Semiconducting Physics
+title: Notes for Semiconductor Physics
 #date: YYYY-MM-DD HH:MM:SS +0800
 categories: [Note]
-tags: [physics,note,en]     # TAG names should always be lowercase
+tags: [physics,note,en,cn]     # TAG names should always be lowercase
 ---
 # Introduction
 - semiconductor lumination
@@ -102,13 +102,13 @@ AlN: C、N深施主
 
 掺杂方法：高温扩散、离子注入
 
-# 半导体中载流⼦的统计分布
+# 半导体中载流子的统计分布
 ## 状态密度
 $g(E)=\frac{dZ}{dE}$
 椭球型等能面(a,b,c)
 $a=b=\sqrt{2m_t(E-E_c)/\hbar}$
 $c=\cdots$
-## 费⽶能级和载流⼦的统计分布
+## 费⽶能级和载流子的统计分布
 $f(E)=\frac{1}{1+exp(\frac{E-E_F}{k_0T})}$
 $$
 n_{0}= 2\left(\frac{m_\mathrm{n}^* k_0 T}{2\pi\hbar^2}\right)^{3/2}\exp\left(-\frac{E_\mathrm{c} - E_\mathrm{F}}{k_0 T}\right) $$
@@ -127,4 +127,17 @@ $$E_\mathrm{i}=E_\mathrm{F}=\frac{E_\mathrm{c}+E_\mathrm{v}}2+\frac{3k_0T}4\math
 | InTe | 32            |
 > P79-tab3.2
 {: .prompt-tip}
-## 杂质半导体的载流⼦浓度
+检查10.28录像，有要记的。
+## 杂质半导体的载流子浓度
+
+## 简并半导体
+对于n型半导体：
+- 一般情况：$N_D<N_c\implies E_F<E_c$费米能级在禁带
+- 提高掺杂能级：$N_D\ge N_c\implies E_F\ge E_c$费米能级在导带
+$$\begin{cases}E_\mathrm{c}-E_\mathrm{F}>2k_0T&\text{非简并}\\0<E_\mathrm{c}-E_\mathrm{F}\leqslant2k_0T&\text{弱简并}\\E_\mathrm{c}-E_\mathrm{F}\leqslant0&\text{简并}\end{cases}$$
+
+# 半导体的导电性
+- 迁移率
+- 散射机制
+- 迁移率、电阻率和温度的关系
+- 强电场效应、热载流子、自由载流子
