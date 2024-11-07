@@ -12,3 +12,6 @@ You can have $\LaTeX$ environment by simply add `r` before the text. If you want
 text=r"First line""\n"r"Second line"
 ```
 where you have to add `r` for both line to enable the $\LaTeX$ env.
+
+## multi-columns in legend
+Use `plt.legend(ncol=k)` where `k` is the number of columns you want.
