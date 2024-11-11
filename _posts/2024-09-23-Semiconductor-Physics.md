@@ -35,13 +35,13 @@ doping (掺杂)
 
 常见晶体结构：
 - 金刚石型(IV)
-![金刚石型](/assets/img/Semiconducting-Physics/金刚石型.png)
+![金刚石型](/assets/img/Semiconductor-Physics/金刚石型.png)
 - 闪锌矿型(绝大部分III-V化合物+部分II-VI化合物)(共价键+离子键$\rightarrow$极性半导体)
-![闪锌矿型](/assets/img/Semiconducting-Physics/闪锌矿型.png)
+![闪锌矿型](/assets/img/Semiconductor-Physics/闪锌矿型.png)
 - 纤锌矿型(部分III-V化合物，典型III-N)(六方对称性)
-![纤锌矿型](/assets/img/Semiconducting-Physics/纤锌矿型.png)
+![纤锌矿型](/assets/img/Semiconductor-Physics/纤锌矿型.png)
 - 氯化钠型(IV-VI化合物)
-![氯化钠型](/assets/img/Semiconducting-Physics/氯化钠型.png)
+![氯化钠型](/assets/img/Semiconductor-Physics/氯化钠型.png)
 
 ## 半导体中的电子状态和能带
 - 自由电子运动
@@ -141,3 +141,28 @@ $$\begin{cases}E_\mathrm{c}-E_\mathrm{F}>2k_0T&\text{非简并}\\0<E_\mathrm{c}-
 - 散射机制
 - 迁移率、电阻率和温度的关系
 - 强电场效应、热载流子、自由载流子
+
+晶格振动的散射
+- 声学波
+- 光学波
+
+方阻(sheet resistance)：$R_s=4.54\frac{V}{I}(\text{Ohm} / \square)$
+
+本征半导体温度上升，电阻率迅速下降
+
+对杂质半导体,有杂质电离和本征激发两个因素存在,
+⼜有电离杂质散射和晶格散射两种散射机构的存在,因⽽电
+阻率随温度的变化关系要复杂些,图砼16示意性地表示⼀
+定杂质浓度的硅样品的电阻率和温度的关系,曲线⼤致分为
+三段。
+
+AB段 :温度很低,本征激发可忽略,载流⼦主要由杂质电离提供,它的浓度随温度的升⾼⽽增
+⼤;散射主要由电离杂质决定,迁移率也随温度的升⾼⽽增⼤,所以,电阻率随温度的升⾼⽽减⼩。
+
+BC段 :温度继续升⾼(包括室温),杂质已全部电离,本征激发还不⼗分显著,载流⼦基本
+上不随温度变化,晶格振动散射上升为主要⽭盾,迁移率随温度的升⾼⽽减⼩,所以,电阻率随
+温度的升⾼⽽增⼤。
+
+C段 :温度继续升⾼,本征激发很快增加,⼤量本征载流⼦的产⽣远远超过迁移率减⼩对
+电阻率的影响,这时,本征激发成为⽭盾的主要⽅⾯,杂质半导体的电阻率将随温度的升⾼⽽
+急剧地减⼩,表现出同本征半导体相似的特征。![金刚石型](/assets/img/Semiconductor-Physics/rhoT.png)
