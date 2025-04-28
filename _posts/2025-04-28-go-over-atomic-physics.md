@@ -23,3 +23,16 @@ $$E=hc\tilde{\nu},\ \tilde{\nu}_n^m=\tilde{\nu}_n^k+\tilde{\nu}_k^m$$
 where the $\tilde{\nu}_i^j$ means the wavenumber from $n=i$ to $m=j$.
 ![energy level of H atom](/assets/img/go-over-atomic-physics/energy_level_of_H.png)
 ## Hypnosis 1: Bohr's theory
+It's obvious if you guess according to the form of the wavelength formula that, the $n$ and $m$ are related to some level of energy inside the atom. Plus, due to some unknown reason (we will mention it later), the energy is not continuous, but level by level with some specific energy. So here we just move on to the classic model and see what kind of 'quantized' condition can be added to solve the problem.
+
+With the Coulomb attraction of the nucleus, we can get
+$$\frac{m_ev^2}{r}=\frac{e^2}{4\pi\epsilon_0r^2}$$
+therefore the angular velocity is 
+$$\omega^2=\left(\frac{v}{r}\right)^2=\frac{e^2/4\pi\epsilon_0}{m_er^3}$$
+and the energy of the electron
+$$E_e=\frac{1}{2}m_ev^2-\frac{e^2/4\pi\epsilon_0}{r}=-\frac{e^2/4\pi\epsilon_0}{2r}$$
+which is negative because the nucleu is attracting the electron, so it needs extra energy to get to the free space.
+
+### Assumption: quantisation of angular momentum
+$$m_evr=n\hbar$$
+
